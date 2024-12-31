@@ -15,6 +15,7 @@ A Basic Yet Powerful Duping Tool Forked From UiUtils.
 - "Close-Without-Packet" Is extremely useful as it will remove items from your inventory but the server will not understand where to put it.
 - "Save-GUI" Saves your current GUI As It Is
 
+There is no Auto-Dupe button but whenever you break a block it will send to the server that 2 blocks were broken! <!Unpatched!>
 
 This Mod Is Not A Rat And Is Open Sourced And Free!
 
