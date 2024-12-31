@@ -10,7 +10,7 @@
     "MrBreakNFix"
   ],
   "contact": {
-    "homepage": "https://ui-utils.com",
+    "homepage": "https://github.com/DupeTools/DupeTools/",
     "sources": "https://github.com/Coderx-Gamer/ui-utils"
   },
 
@@ -18,7 +18,7 @@
     "CC BY-NC-SA 4.0",
     "The mod may not be uploaded to any mod hosting websites or other platforms, including but not limited to 9minecraft.net, without explicit written permission from MrBreakNFix and Coderx_Gamer. All rights reserved."
   ],
-  "icon": "assets/ui_utils/icon.png",
+  "icon": "",
 
   "environment": "client",
   "entrypoints": {
