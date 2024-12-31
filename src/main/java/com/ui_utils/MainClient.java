@@ -530,3 +530,33 @@ public class MainClient implements ClientModInitializer {
         return modMetadata != null ? modMetadata.getVersion().getFriendlyString() : "null";
     }
 }
+
+
+package me.davetcc.dupetools.listeners;
+
+import org.bukkit.Bukkit;
+import org.bukkit.Material;
+import org.bukkit.block.Block;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.block.BlockBreakEvent;
+import org.bukkit.inventory.ItemStack;
+
+public class DoubleBlockBreakListener implements Listener {
+
+    @EventHandler
+    public void onBlockBreak(BlockBreakEvent event) {
+        // Get the block broken by the player
+        Block block = event.getBlock();
+
+        // Drop the block's items again to simulate a second break
+        Material blockType = block.getType();
+        if (blockType != Material.AIR) {
+            // Drop the items naturally
+            block.getWorld().dropItemNaturally(block.getLocation(), new ItemStack(blockType));
+
+            // Send a debug message to the player (optional)
+            event.getPlayer().sendMessage("You broke the block twice!");
+        }
+    }
+}
