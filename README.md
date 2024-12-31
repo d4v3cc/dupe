@@ -1,5 +1,5 @@
 # DupeTools
-A Basic Yet Powerful Duping Tool.
+A Basic Yet Powerful Duping Tool Forked From UiUtils.
 ---
 
 # How to dupe:
