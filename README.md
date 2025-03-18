@@ -1,4 +1,4 @@
-# DupeTools
+# DupeToolsTEST
 A Basic Yet Powerful Duping Tool Forked From UiUtils.
 ---
 
