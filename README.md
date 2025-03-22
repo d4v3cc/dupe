@@ -1,4 +1,4 @@
-# DupeToolsTEST
+# DupeToolsTEST !!! DO NOT DUPE !!! THIS IS FOR LEARNING THE MECHANICS OF GAME BUGS ONLY !!!
 A Basic Yet Powerful Duping Tool Forked From UiUtils.
 ---
 
